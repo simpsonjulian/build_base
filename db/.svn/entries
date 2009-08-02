@@ -1,44 +1,0 @@
-8
-
-dir
-949
-http://muscat.juliansimpson.org/svn/pushkin.juliansimpson.org/trunk/build_base/db
-http://muscat.juliansimpson.org/svn/pushkin.juliansimpson.org
-
-
-
-2009-03-30T21:30:25.496016Z
-949
-jsimpson
-
-
-svn:special svn:externals svn:needs-lock
-
-schema.rb
-file
-951
-
-
-
-2009-04-09T07:51:46.000000Z
-314f955aa7802156c5ec3a1a6604bbf2
-2009-04-13T00:16:23.790259Z
-951
-jsimpson
-
-test.sqlite3
-file
-951
-
-
-
-2009-04-09T08:49:29.000000Z
-61228d59a96bfb721791c0b0dbc49fae
-2009-04-13T00:16:23.790259Z
-951
-jsimpson
-has-props
-
-migrate
-dir
-

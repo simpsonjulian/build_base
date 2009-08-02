@@ -1,2 +1,0 @@
-<%= f.label :tool_id %><br />
-<%= select(:person, :tool_id, @tools.collect {|t| [t.name, t.id]}) %>

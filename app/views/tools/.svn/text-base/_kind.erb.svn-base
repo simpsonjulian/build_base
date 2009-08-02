@@ -1,3 +1,0 @@
-<p>
-	<%= f.label :kind %><br />
-    <%= select(:tool,:kind,['Version Control','Continuous Integration','Build']) %> </p>
