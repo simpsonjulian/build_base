@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/test/integration
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pushkin.juliansimpson.org/!svn/ver/951/trunk/build_base/test/integration/test_helper.rb
+END
+people_integration_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/pushkin.juliansimpson.org/!svn/ver/951/trunk/build_base/test/integration/people_integration_test.rb
+END

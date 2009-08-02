@@ -1,0 +1,23 @@
+<h1>Editing tool</h1>
+
+<% form_for(@tool) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+
+	<%= render :partial => "kind", :locals => { :f => f } %>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @tool %> |
+<%= link_to 'Back', tools_path %>

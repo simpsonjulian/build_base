@@ -1,0 +1,40 @@
+8
+
+dir
+949
+http://muscat.juliansimpson.org/svn/pushkin.juliansimpson.org/trunk/build_base/test/integration
+http://muscat.juliansimpson.org/svn/pushkin.juliansimpson.org
+
+
+
+2009-03-30T21:30:25.496016Z
+949
+jsimpson
+
+
+svn:special svn:externals svn:needs-lock
+
+test_helper.rb
+file
+951
+
+
+
+2009-03-31T07:44:28.000000Z
+7b6807b368ca601ff0fb71d8587c66fe
+2009-04-13T00:16:23.790259Z
+951
+jsimpson
+
+people_integration_test.rb
+file
+951
+
+
+
+2009-04-09T08:02:18.000000Z
+6bacd06c29ba8e09313356a9e7919a2b
+2009-04-13T00:16:23.790259Z
+951
+jsimpson
+

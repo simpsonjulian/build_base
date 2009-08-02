@@ -1,0 +1,40 @@
+8
+
+dir
+949
+http://muscat.juliansimpson.org/svn/pushkin.juliansimpson.org/trunk/build_base/test/unit
+http://muscat.juliansimpson.org/svn/pushkin.juliansimpson.org
+
+
+
+2009-03-30T21:30:25.496016Z
+949
+jsimpson
+
+
+svn:special svn:externals svn:needs-lock
+
+person_test.rb
+file
+
+
+
+
+2009-03-25T21:41:42.000000Z
+6490115d856c2eb897bf06f367d3ae8b
+2009-03-30T21:30:25.496016Z
+949
+jsimpson
+
+tool_test.rb
+file
+
+
+
+
+2009-03-25T21:29:10.000000Z
+16a1f4233b889d3df77e421dd36f6edf
+2009-03-30T21:30:25.496016Z
+949
+jsimpson
+

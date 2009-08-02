@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title><%= controller.class %> <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'echo' %>
+</head>
+<body>
+	<div id="wrap">
+	<div id="container">
+
+		<div id="header">
+			<h1><a href="/"><%= controller.class %></a></h1>
+			<h2><%= controller.action_name %></h2>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><%= link_to 'Home','/' %></li>
+				<li><%= link_to 'People', people_path %></li>
+				<li><%= link_to 'Tools', tools_path %></li>
+				<li><%= link_to 'Admin' %> </li>
+			</ul>
+			<br class="clear" />
+		</div>
+			<div id="content">
+<!--
+				<div class="top-panel">
+				<div>
+					 
+						<h3>Example H3 header.</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor augue, blandit a, semper nec, ultricies vitae, tellus. Donec diam. Donec ut turpis. Maecenas eu nisi nec justo pellentesque gravida. Donec pharetra. Vivamus non felis et nunc semper egestas. Praesent sit amet ligula auctor leo aliquet laoreet.<br /><br />
+
+											<a href="#" class="linkleft">A left link</a> &bull;
+											<a href="#">A right link</a>
+									</p> 
+				</div></div>
+				-->
+				<div class="page-wrap">
+					<div class="page">
+
+					<!-- begin main content -->
+
+					<p style="color: green"><%= flash[:notice] %></p>
+
+
+					<%= yield  %>
+
+					<!-- end main content -->
+
+					</div>
+
+
+					<div class="sidebar">
+						<h4>Links</h4>
+						<ul>
+							<li><a href="http://www.build-doctor.com" title="The Build Doctor">Build Doctor</a></li>
+							<li><a href="http://www.juliansimpson.org" title="Julian Simpson">JulianSimpsonDotOrg</a></li>
+							<li><a href="http://www.dbdeploy.net" title="dbdeploy.net">dbdeploy.net</a></li>
+							<li><a href="http://www.buildrefactoring.com" title="Build Refactoring">Build Refactoring</a></li>
+						</ul>
+
+						<h4>Sponsors</h4>
+			<!-- adsense here -->
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div id="footer">
+				<p>&copy; 2009 Julian Simpson. Design: <a href="http://www.spyka.net">spyka webmaster</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
+			</div>
+
+		</div>
+		</div>
+
+
+
+</body>
+</html>

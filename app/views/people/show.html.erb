@@ -1,0 +1,39 @@
+<p>
+  <b>First name:</b>
+  <%=h @person.first_name %>
+</p>
+
+<p>
+  <b>Surname:</b>
+  <%=h @person.surname %>
+</p>
+<p>
+  <b>Blog url:</b>
+  <%=link_to @person.blog_url,@person.blog_url %>
+</p>
+
+<p>
+  <b>Linkedin url:</b>
+  <%=link_to @person.linkedin_url,@person.linkedin_url %>
+</p>
+
+<p>
+  <b>Twitter name:</b>
+  <%= link_to @person.twitter_name, @person.twitter_name %>
+</p>
+
+<p>
+  <b>Tool:</b>
+  <%= link_to @person.tool.name, @person.tool %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%=h @person.title %>
+</p>
+
+
+<%= link_to 'Edit', edit_person_path(@person) %> 
+<%= link_to 'Another', new_person_path %>
+<%= link_to 'Back', people_path %>
+

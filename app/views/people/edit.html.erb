@@ -1,0 +1,44 @@
+<h1>Editing person</h1>
+
+<% form_for(@person) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :first_name %><br />
+    <%= f.text_field :first_name %>
+  </p>
+  <p>
+    <%= f.label :surname %><br />
+    <%= f.text_field :surname %>
+  </p>
+  <p>
+    <%= f.label :blog_url %><br />
+    <%= f.text_field :blog_url %>
+  </p>
+  <p>
+    <%= f.label :linkedin_url %><br />
+    <%= f.text_field :linkedin_url %>
+  </p>
+  <p>
+    <%= f.label :twitter_name %><br />
+    <%= f.text_field :twitter_name %>
+  </p>
+  <p>
+    <%= f.label :crunchbase_url %><br />
+	<%= f.text_field :crunchbase_url %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+	<%= render :partial => "tool", :locals => { :f => f } %>
+	
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @person %> |
+<%= link_to 'Back', people_path %>

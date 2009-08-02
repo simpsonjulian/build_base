@@ -1,0 +1,136 @@
+<html>
+<head>
+	<title>Reek Results</title>
+	<style>
+	body {
+	background-color: #efefef;
+	margin: 20px;
+	padding: 0;
+	font: 12px verdana, arial, helvetica;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #666;
+	background: #fff;
+	margin-bottom: 20px;	
+}
+
+	table tr.light {
+	 	background: #fff;
+	}
+
+	table tr.dark {
+		background: #f9f9f9;
+	}
+
+	table td, table th {
+		padding: 4px 10px;
+		font-size: 13px;
+	}
+	table th {
+		text-align: center;
+		color: #fc0;
+		background: #336;		
+		font-weight: bold;
+		border: #d0d0d0 1px solid;
+	}
+
+	table td {
+		border: #d0d0d0 1px solid;
+	}
+	
+		table td.score {
+			text-align: right;
+		}	
+
+.warning {
+	background: yellow;
+}	
+	</style>
+</head>
+
+<body>
+	<h1>Reek Results</h1>
+	<p><a href="http://reek.rubyforge.org/">Reek</a> detects common code smells in ruby code.</p>
+	<table>
+		<tr>
+		  <th>File Path</th>
+		  <th>Code Smell</th>
+		</tr>
+		
+  		<tr class='light'>
+  		  <td>"app/controllers/people_controller.rb" -- 12 warnings:</td>
+  		  <td>
+  			  
+  			  [Duplication] PeopleController#create calls format.html more than once<br>
+  			  
+  			  [Duplication] PeopleController#create calls format.xml more than once<br>
+  			  
+  			  [Long Method] PeopleController#create has approx 7 statements<br>
+  			  
+  			  [Nested Iterators] PeopleController#create has nested iterators<br>
+  			  
+  			  [Nested Iterators] PeopleController#destroy has nested iterators<br>
+  			  
+  			  [Nested Iterators] PeopleController#index has nested iterators<br>
+  			  
+  			  [Nested Iterators] PeopleController#new has nested iterators<br>
+  			  
+  			  [Nested Iterators] PeopleController#show has nested iterators<br>
+  			  
+  			  [Duplication] PeopleController#update calls format.html more than once<br>
+  			  
+  			  [Duplication] PeopleController#update calls format.xml more than once<br>
+  			  
+  			  [Long Method] PeopleController#update has approx 7 statements<br>
+  			  
+  			  [Nested Iterators] PeopleController#update has nested iterators<br>
+  			  
+  		  </td>
+  		</tr>
+		
+  		<tr class='dark'>
+  		  <td>"app/controllers/tools_controller.rb" -- 12 warnings:</td>
+  		  <td>
+  			  
+  			  [Duplication] ToolsController#create calls format.html more than once<br>
+  			  
+  			  [Duplication] ToolsController#create calls format.xml more than once<br>
+  			  
+  			  [Long Method] ToolsController#create has approx 7 statements<br>
+  			  
+  			  [Nested Iterators] ToolsController#create has nested iterators<br>
+  			  
+  			  [Nested Iterators] ToolsController#destroy has nested iterators<br>
+  			  
+  			  [Nested Iterators] ToolsController#index has nested iterators<br>
+  			  
+  			  [Nested Iterators] ToolsController#new has nested iterators<br>
+  			  
+  			  [Nested Iterators] ToolsController#show has nested iterators<br>
+  			  
+  			  [Duplication] ToolsController#update calls format.html more than once<br>
+  			  
+  			  [Duplication] ToolsController#update calls format.xml more than once<br>
+  			  
+  			  [Long Method] ToolsController#update has approx 7 statements<br>
+  			  
+  			  [Nested Iterators] ToolsController#update has nested iterators<br>
+  			  
+  		  </td>
+  		</tr>
+		
+  		<tr class='light'>
+  		  <td>"app/models/person.rb" -- 1 warnings:</td>
+  		  <td>
+  			  
+  			  [Duplication] Person#tool calls [:self].tool_id more than once<br>
+  			  
+  		  </td>
+  		</tr>
+		
+	</table>
+	<p>Generated on Thu Apr 09 09:49:38 +0100 2009</p>
+</body>
+</html>

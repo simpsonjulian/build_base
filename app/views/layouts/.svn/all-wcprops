@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/app/views/layouts
+END
+buildbase.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/app/views/layouts/buildbase.html.erb
+END
+tools.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/app/views/layouts/tools.html.erb
+END
+people.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/app/views/layouts/people.html.erb
+END

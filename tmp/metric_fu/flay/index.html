@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>Flay Results</title>
+	<style>
+	body {
+	background-color: #efefef;
+	margin: 20px;
+	padding: 0;
+	font: 12px verdana, arial, helvetica;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #666;
+	background: #fff;
+	margin-bottom: 20px;	
+}
+
+	table tr.light {
+	 	background: #fff;
+	}
+
+	table tr.dark {
+		background: #f9f9f9;
+	}
+
+	table td, table th {
+		padding: 4px 10px;
+		font-size: 13px;
+	}
+	table th {
+		text-align: center;
+		color: #fc0;
+		background: #336;		
+		font-weight: bold;
+		border: #d0d0d0 1px solid;
+	}
+
+	table td {
+		border: #d0d0d0 1px solid;
+	}
+	
+		table td.score {
+			text-align: right;
+		}	
+
+.warning {
+	background: yellow;
+}	
+	</style>
+</head>
+
+<body>
+	<h1>Flay Results</h1>
+  <p><a href='http://ruby.sadi.st/Flay.html'>Flay</a> analyzes ruby code for structural similarities.</p>  
+	<table>
+		<tr>
+		  <th>Files</th>
+		  <th>Matches</th>		  
+		</tr>
+  	
+  		<tr class='light'>
+  		  <td>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/people_controller.rb&line=46">app/controllers/people_controller.rb:46</a><br>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/tools_controller.rb&line=43">app/controllers/tools_controller.rb:43</a><br>
+  			  
+  		  </td>
+    		<td>
+1) Similar code found in :defn (mass = 142)</td>
+  		</tr>
+		
+  		<tr class='dark'>
+  		  <td>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/people_controller.rb&line=63">app/controllers/people_controller.rb:63</a><br>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/tools_controller.rb&line=60">app/controllers/tools_controller.rb:60</a><br>
+  			  
+  		  </td>
+    		<td>2) Similar code found in :defn (mass = 140)</td>
+  		</tr>
+		
+  		<tr class='light'>
+  		  <td>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/people_controller.rb&line=80">app/controllers/people_controller.rb:80</a><br>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/tools_controller.rb&line=77">app/controllers/tools_controller.rb:77</a><br>
+  			  
+  		  </td>
+    		<td>3) Similar code found in :defn (mass = 72)</td>
+  		</tr>
+		
+  		<tr class='dark'>
+  		  <td>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/people_controller.rb&line=5">app/controllers/people_controller.rb:5</a><br>
+  			  
+  			  <a href="txmt://open/?url=file:///Users/jsimpson/Documents/workspace/build_base/app/controllers/tools_controller.rb&line=5">app/controllers/tools_controller.rb:5</a><br>
+  			  
+  		  </td>
+    		<td>4) Similar code found in :defn (mass = 58)</td>
+  		</tr>
+		
+	</table>
+	<p>Generated on Thu Apr 09 09:49:37 +0100 2009</p>	
+</body>
+</html>

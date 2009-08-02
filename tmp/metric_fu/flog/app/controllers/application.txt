@@ -1,0 +1,4 @@
+Total Flog = 2.2 (2.2 flog / method)
+ApplicationController#none: (2.2)
+     1.1: helper
+     1.1: protect_from_forgery

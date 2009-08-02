@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/script/performance
+END
+benchmarker
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/script/performance/benchmarker
+END
+profiler
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/script/performance/profiler
+END
+request
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pushkin.juliansimpson.org/!svn/ver/949/trunk/build_base/script/performance/request
+END
