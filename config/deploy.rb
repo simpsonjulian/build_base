@@ -12,16 +12,16 @@ set :scm, "git"
 # If you aren't using Subversion to manage your source code, specify
 # your SCM below:
 # set :scm, :subversion
-
-role :app, "muscat.juliansimpson.org"
-role :web, "muscat.juliansimpson.org"
-role :db,  "muscat.juliansimpson.org", :primary => true
+web_server = "cleo.juliansimpson.org"
+role :app, web_server
+role :web, web_server
+role :db,  web_server, :primary => true
 
 set :username, "jsimpson"
-set :host, "muscat.juliansimpson.org"
-set :deploy_to, "/data/www/doc/base.build-doctor.com"
-set :restart, "#{sudo} /etc/init.d/apache2 restart"
-set :use_sudo, true
+set :host, web_server 
+set :deploy_to, "/data/www/rails/base.build-doctor.com"
+#set :restart, "#{sudo} /etc/init.d/apache2 restart"
+#set :use_sudo, true
 
 
 # desc "Remote checkout and restart of webserver"
