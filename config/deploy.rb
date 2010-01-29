@@ -22,7 +22,7 @@ set :host, web_server
 set :deploy_to, "/data/www/rails/base.build-doctor.com"
 #set :restart, "#{sudo} /etc/init.d/apache2 restart"
 #set :use_sudo, true
-
+	
 
 # desc "Remote checkout and restart of webserver"
 # task :deploy, :hosts => "#{username}@#{host}" do
